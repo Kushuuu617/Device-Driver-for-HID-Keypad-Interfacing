@@ -147,9 +147,3 @@ This project is intended for **educational purposes only**. Direct hardware mani
 ## 📷 Project Image
 
 ![Keypad Hardware Connection](https://github.com/user-attachments/assets/d6bc2a4c-f348-4a55-9578-1e8c72d93518)
-
-## References
--  https://embetronicx.com/tutorials/linux/device-drivers/gpio-driver-basic-using-raspberry-pi/
--  https://www.kernel.org/doc/html/v4.15/input/input-programming.html
--  https://linux-kernel-labs.github.io/refs/heads/master/labs/deferred_work.html#workqueues
--  https://litux.nl/mirror/kerneldevelopment/0672327201/ch10lev1sec7.html
