@@ -7,6 +7,7 @@
 
 ## Introduction
 This project involves designing and implementing a Linux device driver to interface a keypad with a Raspberry Pi. The goal is to detect key presses and translate them into Linux input events using the Linux input subsystem.
+
 ![image](https://github.com/user-attachments/assets/d6bc2a4c-f348-4a55-9578-1e8c72d93518)
 
 ## Hardware Implementation
