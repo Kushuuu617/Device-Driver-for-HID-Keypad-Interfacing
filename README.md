@@ -17,7 +17,7 @@ There are pull-down resistors for the column row to prevent it from reading floa
 On the software side, the Linux device driver handles all the logic needed to detect key presses and translate them into standard keyboard events. The input_dev structure functioned to link our virtual input device with Linux input subsystem functionalities, including keycodes configuration for keypad buttons. For key scanning, the system needs scheduled loops enabled by kernel timers and workqueue execution. The periodic workqueue execution of the timer functionality enabled the scanning function to verify key statuses for detecting press events and release events. The events were passed to the input subsystem through input_report_key() combined with input_sync() functions to simulate keyboard events properly. During scanning operations, we used a mutex to guarantee thread safety of shared data access. The Raspberry Pi could accept matrix keypad inputs, which it interpreted as if they originated from a standard USB keyboard.
 
 ## References
-● https://embetronicx.com/tutorials/linux/device-drivers/gpio-driver-basic-using-raspberry-pi/
-● https://www.kernel.org/doc/html/v4.15/input/input-programming.html
-● https://linux-kernel-labs.github.io/refs/heads/master/labs/deferred_work.html#workqueues
-● https://litux.nl/mirror/kerneldevelopment/0672327201/ch10lev1sec7.html
+- ● https://embetronicx.com/tutorials/linux/device-drivers/gpio-driver-basic-using-raspberry-pi/
+- ● https://www.kernel.org/doc/html/v4.15/input/input-programming.html
+- ● https://linux-kernel-labs.github.io/refs/heads/master/labs/deferred_work.html#workqueues
+- ● https://litux.nl/mirror/kerneldevelopment/0672327201/ch10lev1sec7.html
