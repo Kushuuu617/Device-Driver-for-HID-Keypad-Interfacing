@@ -13,7 +13,7 @@
 #define ROWS 4
 #define COLS 4
 
-// BCM GPIO numbers (adjust if your wiring is different)
+// BCM GPIO numbers
 static const unsigned int row_gpios[ROWS] = {17, 5, 6, 13};
 static const unsigned int col_gpios[COLS] = {23, 24, 12, 16};
 
