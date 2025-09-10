@@ -188,4 +188,7 @@ module_exit(keypad_driver_exit);
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Atul M");
+MODULE_AUTHOR("Kushagra Tanwar");
+MODULE_AUTHOR("Aditya singh jamwal");
 MODULE_DESCRIPTION("Keypad driver for RasPi");
+
